@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practice Level 04</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Solving Practice Level 04</h1>
+    <main class="mb-5">
+        <div class="container">
+            <img src="../images/task4.png" alt="">
+        </div>
+        <h4 class="container bg-success text-white my-4">Did extra work for send and delete button responsive to the final string too. That means individual buttons will also co-operate with total send and reset button</h4>
+        <div class="container bg-dark text-white p-5 rounded">
+            <h3 class="text-center mb-5">Please Contact Me</h3>
+            
+            <h3 class="mb-4">Name</h3>
+
+            <div class="mb-3 d-flex justify-content-between">
+                <input id="name-field" class="w-75" type="text" placeholder="Your Name">
+                <button id="delete-name" class="btn btn-primary">Delete Name</button>
+                <button id="send-name" class="btn btn-primary">Send Name</button>
+            </div>
+            <h3 class="mb-4">Email</h3>
+            <div class="mb-3 d-flex justify-content-between">
+                <input id="email-field" class="w-75" type="email" placeholder="Your Email">
+                <button id="delete-email" class="btn btn-primary">Delete Email</button>
+                <button id="send-email" class="btn btn-primary">Send Email</button>
+            </div>
+
+            <h3 class="mb-4">Message</h3>
+            <div class="mb-3 d-flex justify-content-between align-items-center">
+                <textarea id="message-field" class="w-75" rows="3" placeholder="Put a message"></textarea>
+                <button id="delete-message" class="btn btn-primary h-100">Delete Message</button>
+                <button id="send-message" class="btn btn-primary h-100">Send Message</button>
+            </div>
+
+            <div class="d-flex justify-content-around mt-5">
+                <button id="send-all" class="btn btn-danger w-25 fw-bold fs-4">Send</button>
+                <button id="delete-all" class="btn btn-warning w-25 fw-bold fs-4">Reset</button>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="level4.js"></script>
+  </body>
+</html>
